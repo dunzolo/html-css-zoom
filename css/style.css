@@ -1,0 +1,71 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* utils */
+body{
+    background-color: black;
+}
+
+.row{
+    width: 100%;
+    /* height: 100%; */
+    display: flex;
+}
+
+
+/* inizio main */
+.button-topbar{
+    height: 5vh;
+    width: 100%;
+    background-color: green;
+}
+
+.main-container{
+    height: 85vh;
+    width: 90%;
+    margin: 0 auto;
+    background-color: rgb(126, 109, 109);
+    /* overflow-y: auto; */
+}
+
+.col-100{
+    width: 100%;
+    margin: 0 auto;
+}
+
+.content{
+    width: calc(100% / 7);
+    height: 100px;
+    border: 1px solid black;
+    margin: 10px;
+}
+
+/* fine main */
+
+/* inizio footer */
+.footer-container{
+    height: 10vh;
+    width: 100%;
+    background-color: gray;
+    display: flex;
+    align-items: center;
+}
+
+.col-25{
+    width: 25%;
+    height: 50px;
+    background-color: red;
+    border: 1px solid black;
+}
+
+.col-50{
+    width: 50%;
+    height: 50px;
+    background-color: red;
+    border: 1px solid black;
+}
+
+/* fine footer */

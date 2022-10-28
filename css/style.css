@@ -14,6 +14,13 @@ body{
     display: flex;
 }
 
+.background-gray{
+    background-color: gray;
+}
+
+.color-red{
+    color: red
+}
 
 /* inizio main */
 .button-topbar{
@@ -74,7 +81,7 @@ body{
     color: white;
     padding: 5px;
     font-size: 12px;
-    background-color: hsla(0, 0%, 0%, 0.2);
+    background-color: rgba(0, 0, 0, 0.2);
 }
 
 /* fine main */
@@ -83,7 +90,7 @@ body{
 .footer-container{
     height: 10vh;
     width: 100%;
-    background-color: gray;
+    background-color: rgb(29, 28, 28);
     display: flex;
     align-items: center;
     color: white;
@@ -109,6 +116,10 @@ body{
     padding: 0px 15px;
 }
 
+.col-25 a{
+    text-align: right;
+}
+
 .inline-list{
     list-style-type: none;
     text-align: center;
@@ -124,5 +135,6 @@ body{
 .footer-container p{
     font-size: 10px;
 }
+
 
 /* fine footer */

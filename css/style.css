@@ -86,20 +86,43 @@ body{
     background-color: gray;
     display: flex;
     align-items: center;
+    color: white;
 }
 
 .col-25{
     width: 25%;
-    height: 50px;
-    background-color: red;
-    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    /* height: 50px; */
 }
 
 .col-50{
     width: 50%;
-    height: 50px;
-    background-color: red;
-    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    /* height: 50px; */
+}
+
+.col-25 div{
+    display: inline-block;
+    text-align: center;
+    padding: 0px 15px;
+}
+
+.inline-list{
+    list-style-type: none;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+.inline-list li{
+    display: inline-block;
+    padding: 0 5px;
+}
+
+.footer-container p{
+    font-size: 10px;
 }
 
 /* fine footer */

@@ -32,10 +32,8 @@ body{
 
 /* inizio main */
 .button-topbar{
-    /* height: 5vh; */
     width: 100%;
     margin-bottom: 10px;
-    /* background-color: green; */
     color: white;
     display: flex;
     justify-content: flex-end;
@@ -48,13 +46,6 @@ body{
     border-radius: 5px;
     margin-right: 5px;
 }
-
-/* #full-screen{
-    padding: 5px;
-    background-color: rgba(122, 114, 114, 0.70);
-    font-size: 10px;
-    border-radius: 5px;
-} */
 
 .main-container{
     height: 85vh;
@@ -73,14 +64,12 @@ body{
     height: 100px;
     margin: 7px 3px;
     position: relative;
-
 }
 
 .content img{
     width: 100%;
     height: 100%;
     object-fit: cover;
-    /* position: relative; */
 }
 
 .username{
@@ -106,16 +95,12 @@ body{
 
 .col-25{
     width: 25%;
-    /* display: flex;
-    align-items: center; */
-    /* height: 50px; */
 }
 
 .col-50{
     width: 50%;
     display: flex;
     justify-content: center;
-    /* height: 50px; */
 }
 
 .padding-horizontal-15{
@@ -131,11 +116,8 @@ body{
 }
 
 .inline-list{
-    /* list-style-type: none;
-    text-align: center; */
     display: flex;
     font-size: 20px;
-    /* align-items: center; */
 }
 
 .inline-list ul{
@@ -148,6 +130,7 @@ body{
 .inline-list li{
     display: inline-block;
     padding: 0 5px;
+    cursor:pointer;
 }
 
 .footer-container p{
